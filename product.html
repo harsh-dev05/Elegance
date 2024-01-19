@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/navbar.css" />
+    <link rel="stylesheet" href="stylesheets/product.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar" id="navbar">
+        <div id="logo"><a href="index.html">Elegance</a></div>
+        <div id="navigation">
+          <div class="menu" id="home">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="menu" id="Collection">
+            <a href="productpage.html">Collection</a>
+          </div>
+          <div class="menu" id="Contact Us">
+            <a href="contactus.html">Contact Us</a>
+          </div>
+          <div class="menu" id="About us"><a href="">About us</a></div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="singleProduct">
+          <div class="productImage" id="productImage"></div>
+          <div class="productDetails">
+            <div id="name">
+              <p></p>
+            </div>
+            <div class="rProduct">
+              <div id="rate"></div>
+              <div id="rating"></div>
+            </div>
+            <div id="description">
+              <p></p>
+            </div>
+            <div class="buttons">
+              <button class="cart" onclick="windowAlert()">Cart</button>
+              <button class="buy">Buy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="more">
+        <div class="grid" id="productGrid">
+          <!--  -->
+        </div>
+      </div>
+    </div>
+    <script src="scripts/getData.js"></script>
+    <script src="scripts/route.js"></script>
+  </body>
+</html>
